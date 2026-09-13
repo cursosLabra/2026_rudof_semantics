@@ -1,0 +1,8 @@
+prefix : <http://example.org/> 
+
+SELECT ?name ?age {
+    ?person :name  ?name ;
+    OPTIONAL { 
+      ?person :age ?age 
+    } 
+}

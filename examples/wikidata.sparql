@@ -1,0 +1,11 @@
+prefix wd: <http://www.wikidata.org/entity/>
+prefix wdt: <http://www.wikidata.org/prop/direct/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?name ?birthDate WHERE {
+  ?person wdt:P31    wd:Q5 ;
+          rdfs:label ?name ;
+          wdt:P569   ?birthDate 
+  FILTER (lang(?name)='en')
+}
+LIMIT 5
