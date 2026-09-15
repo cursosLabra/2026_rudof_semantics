@@ -1,0 +1,5 @@
+(a {Person} [ name: "Alice", age: 30 ])
+(b {Person} [ name: "Bob" ])
+(c {Person} [ name: "Carol" ])
+(a) - (r1 {knows} [ since: 2010 ]) -> (b)
+(c) - (r2 {knows} [ since: "Unknown" ]) -> (b)

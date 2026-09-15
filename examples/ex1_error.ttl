@@ -7,7 +7,7 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
    :age     30        ;
    :knows   :b        .
 :b rdf:type :Person   ;
-   :name    "Robert"  ;
+   :name    "Bob"  ;
    :knows   :a        .
 :c rdf:type :Person   ;
    :name    23        .

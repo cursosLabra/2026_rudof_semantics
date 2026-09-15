@@ -1,0 +1,3 @@
+backend = "lbug"
+path = "out/db.lbug"
+read_only = false

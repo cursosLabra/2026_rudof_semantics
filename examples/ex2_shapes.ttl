@@ -5,22 +5,23 @@ prefix sh: <http://www.w3.org/ns/shacl#>
 
 :User a sh:NodeShape ;
     sh:targetClass :Person ;
-#    sh:property [
-#        sh:path :name ;
-#        sh:datatype xsd:string ;
-#        sh:minCount 1 ;
-#    ] ;
+    sh:property [
+        sh:path :name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
     sh:property [
         sh:path  :knows ;
         sh:class :Person ;
         sh:reificationRequired true ;
-        sh:reifierShape :reifShape  ;
+        sh:reifierShape [
+            a sh:NodeShape ;
+            sh:property [ 
+             sh:path     :since ;
+             sh:datatype xsd:integer ;
+             sh:minCount 1 ; 
+             sh:maxCount 1 ]
+        ]  
     ] .
 
-:reifShape a sh:NodeShape ;
-  sh:property [ 
-    sh:path     :since ;
-    sh:datatype xsd:integer ;
-    sh:minCount 1 ; 
-    sh:maxCount 1 ] .
   

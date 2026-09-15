@@ -1,0 +1,13 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX :    <http://example.org/>
+
+:Person {
+    wdt:P31 [ wd:Q5 ] ; # Instance of human
+    wdt:P569 xsd:dateTime  ; # Date of birth
+    wdt:P19 @:Place # Birth place
+}
+:Place {
+    wdt:P625 . ; # Coordinate location
+}

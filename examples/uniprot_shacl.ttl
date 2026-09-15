@@ -1,0 +1,14 @@
+prefix sh: <http://www.w3.org/ns/shacl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix up: <http://purl.uniprot.org/core/>
+prefix : <http://example.org/>
+prefix taxon: <http://purl.uniprot.org/taxonomy/>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+:TaxonShape a sh:NodeShape ;
+    sh:targetNode taxon:10 ;
+    sh:property [
+        sh:path up:otherName  ;
+        sh:datatype xsd:string ;
+    ] .

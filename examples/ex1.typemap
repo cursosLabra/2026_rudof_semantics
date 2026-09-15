@@ -1,0 +1,5 @@
+a: User,
+b: User,
+c: User,
+r1: KnowsType,
+r2: KnowsType

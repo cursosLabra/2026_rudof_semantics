@@ -4,8 +4,8 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 :User {
    :name     xsd:string    ;
    :age      xsd:integer ? ;
-   :knows    @:User        ;
-   :worksFor @:Company *  ;
+   :knows    @:User      * ;
+   :worksFor @:Company   * ;
 }
 
 :Company {

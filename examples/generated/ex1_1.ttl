@@ -1,0 +1,60 @@
+<http://example.org/User-8> <http://example.org/age> 6343 ;
+	<http://example.org/knows> <http://example.org/User-8> , <http://example.org/User-7-0> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Gamma603" .
+<http://example.org/User-3-0> <http://example.org/age> 4504 ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Alpha718" .
+<http://example.org/User-10> <http://example.org/age> 7728 ;
+	<http://example.org/knows> <http://example.org/User-10> , <http://example.org/User-9-0> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Beta938" .
+<http://example.org/User-9-0> <http://example.org/age> 969 ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Delta342" .
+<http://example.org/User-9> <http://example.org/knows> <http://example.org/User-9> , <http://example.org/User-8-0> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Gamma229" .
+<http://example.org/User-7-0> <http://example.org/age> 8309 ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Gamma375" .
+<http://example.org/User-0-0> a <http://example.org/User> ;
+	<http://example.org/name> "Gamma125" .
+<http://example.org/User-8-0> a <http://example.org/User> ;
+	<http://example.org/name> "Alpha848" .
+<http://example.org/User-6-0> a <http://example.org/User> ;
+	<http://example.org/name> "Delta202" .
+<http://example.org/User-1-0> <http://example.org/age> 5207 ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Epsilon164" .
+<http://example.org/User-6> <http://example.org/age> 9338 ;
+	<http://example.org/knows> <http://example.org/User-6> , <http://example.org/User-5-0> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Gamma670" .
+<http://example.org/User-2> <http://example.org/age> -655 ;
+	<http://example.org/knows> <http://example.org/User-1-0> , <http://example.org/User-2> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Epsilon748" .
+<http://example.org/User-4-0> a <http://example.org/User> ;
+	<http://example.org/name> "Epsilon634" .
+<http://example.org/User-3> <http://example.org/knows> <http://example.org/User-3> , <http://example.org/User-2-0> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Delta432" .
+<http://example.org/User-7> <http://example.org/knows> <http://example.org/User-6-0> , <http://example.org/User-7> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Epsilon231" .
+<http://example.org/User-4> <http://example.org/age> 9659 ;
+	<http://example.org/knows> <http://example.org/User-3-0> , <http://example.org/User-4> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Epsilon174" .
+<http://example.org/User-1> <http://example.org/knows> <http://example.org/User-0-0> , <http://example.org/User-1> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Beta662" .
+<http://example.org/User-5> <http://example.org/knows> <http://example.org/User-4-0> , <http://example.org/User-5> ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Alpha522" .
+<http://example.org/User-2-0> a <http://example.org/User> ;
+	<http://example.org/name> "Alpha183" .
+<http://example.org/User-5-0> <http://example.org/age> 5150 ;
+	a <http://example.org/User> ;
+	<http://example.org/name> "Alpha431" .

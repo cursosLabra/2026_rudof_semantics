@@ -1,0 +1,17 @@
+prefix : <http://example.org/> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:a a     :Person                    ;
+   :name  "Alice"                   ;
+   :knows :b {| :since 2010 |}      .
+:b  a :Person                       ; 
+   :name "Bob"                      .
+:c a :Person                        ;
+   :name "Carol"                    ;
+   :knows :b {| :since "Unknown" |} .
+:d a :Person                        ;
+   :name "Dave"                     ;
+   :knows :c {| :since 2009 |}      .
+:e a :Person ;
+   :name 23  .

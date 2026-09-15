@@ -1,0 +1,8 @@
+"shapeID    "," propertyID   "," mandatory"," repeatable"," valueDataType",valueShape
+"User ","name   ","TRUE     ","FALSE     ",xsd:string
+,"age  ","FALSE    ","FALSE     ",xsd:integer,
+" ","knows   ","FALSE    ","TRUE     ",,User
+,worksFor,FALSE,TRUE,,Company
+Company,name,TRUE,FALSE,xsd:string
+,ceo,FALSE,FALSE,,User
+,employee,FALSE,TRUE,,User

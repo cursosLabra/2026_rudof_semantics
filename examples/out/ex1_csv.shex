@@ -1,0 +1,14 @@
+prefix : <http://example.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:User { 
+ :name xsd:string ; 
+ :age xsd:integer ?; 
+ :knows @:User ?; 
+ :worksFor @:Company ? 
+}
+:Company { 
+ :name xsd:string ; 
+ :ceo @:User ?; 
+ :employee @:User ? 
+}
